@@ -10,6 +10,7 @@ import github from "../../images/github.png"
 import linked from "../../images/linkedin.png"
 
 import "./home.css"
+
 class Home extends Component {
     state = {  } 
    componentDidMount(){
@@ -18,6 +19,22 @@ class Home extends Component {
     render() { 
         return (
             <div className="home_container">
+                 <div className="navbar_container">
+               <div className="left_navbar">
+                  <h1><span>G</span></h1>
+               </div>
+               <div className="right_navbar">
+                    
+                       <a href="#">Home</a>
+                  
+
+                      
+                      <a>About</a>
+                      <a href="#">Skills</a>
+                      <a href="#">Contact</a>
+
+               </div>
+           </div>
                
                {/* <div data-aos="fade-up"in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"> */}
                     <div className="profile"  data-aos="zoom-in-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">

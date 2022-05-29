@@ -22,7 +22,7 @@ class Skills extends Component {
                 <div  className="skill_bar">
                 
                     <div className="left">
-                    <h2>Technical skill</h2>
+                    <h2   data-aos="fade-up">Technical skill</h2>
                          <div  className="lang"  data-aos="fade-up" data-aos-delay="100">
                              <h3>javascript</h3>
                              <div className="js_bar">
@@ -83,7 +83,7 @@ class Skills extends Component {
                     <div className="right">
                     <h2>Proffessional skill</h2>
                     <div className="pro"  data-aos="fade-up" data-aos-delay="100">
-                        <h3>Communication</h3>
+                        <h3   data-aos="fade-up">Communication</h3>
                         <div className="communication_bar">
                             <div className="communication_progress common">
                             <div className="circle">

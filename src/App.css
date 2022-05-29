@@ -9,3 +9,10 @@ span{
   font-size: larger;
   font-weight: 700;
 }
+body{
+  overflow: scroll;
+  box-sizing: content-box;
+}
+body::-webkit-scrollbar{
+  display: none;
+}

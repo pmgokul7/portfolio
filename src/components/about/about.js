@@ -23,7 +23,11 @@ class About extends Component {
                        
                 </div>
                 <div className="about_discription"  data-aos="fade-up">
-                    <p><span>Hello! I’m Gokul</span>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis ornare purus. Morbi luctus tortor nunc, vitae posuere nibh malesuada sed. In nec tortor eu nibh tristique vehicula sed in lectus. Phasellus vitae accumsan tortor. Fusce ac vestibulum ante</p>
+                    <p><span>Hello! I’m Gokul</span>. I am activly Searching for a challenging role in a reputable organization
+to utilize my technical, database, and management skills
+for the growth of the organization as well as to enhance
+my knowledge about new and emerging trends in the IT
+sector. </p>
 
                 </div>
                 <div className="interest">
@@ -39,7 +43,7 @@ class About extends Component {
                          
                      </div>
                      <div className="right_interest"  data-aos="fade-up">
-                          <h2>My Interests</h2>
+                          <h2>My Interests</h2 >
                           <div className="interest_icons">
                               
                               
