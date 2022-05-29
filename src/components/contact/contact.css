@@ -5,6 +5,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
+padding-bottom: 100px;
+}
+.contact_ic >h1{
+    color: aliceblue;
+    margin-top: 15px;
+font-family: cursive;
+    font-size: 48px;
+    
+}
+.contact_ic hr{
+   background-color: aqua;
 }
 .info{
     display: flex;
@@ -53,5 +64,40 @@ color: aliceblue;
     
     /* top: 50px   ; */
     color: aliceblue;
+    
+}
+
+
+
+.message{
+    margin-top: 50px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    background: transparent;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+}
+.message::after{
+    /* border-radius: 5px; */
+    content:"";
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    background-color:  #0063b1;
+    transition: .3s ease-in;
+    z-index: -1;
+}
+.message:hover,.message:focus{
+    border: 2px solid  #0063b1;
+}
+.message:hover::after,.message:focus::after{
+    
+    color: #1E2326;
+    right: 0%;
     
 }

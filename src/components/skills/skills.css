@@ -5,6 +5,11 @@
     background-color: #1E2326;
     color: aliceblue;
 }
+.skills_container h1{
+    font-family: cursive;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
 .skills_icon{
     display: flex;
     flex-direction: column;

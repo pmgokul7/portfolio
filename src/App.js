@@ -8,6 +8,9 @@ import Skills from './components/skills/skills';
 import s  from "./images/facebook.png"
 
 function App() {
+  <script>
+    AOS.init();
+  </script>
   return (
     <div className="App">
     <Navbar/>

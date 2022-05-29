@@ -9,6 +9,7 @@ class Contact extends Component {
                 <div className="contact_ic">
                    <img src={contact} alt="contact icon"/>
                    <h1>Contact me</h1>
+                   
                 </div>
                 <div className="info">
                     
@@ -27,7 +28,13 @@ class Contact extends Component {
                    
                     
                 </div>
+                
                 </div>
+                <button className='message' >
+                    
+                   Send Message
+                </button>
+                
             </div>
         );
     }

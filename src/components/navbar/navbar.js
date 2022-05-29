@@ -9,7 +9,11 @@ class Navbar extends Component {
                   <h1><span>G</span></h1>
                </div>
                <div className="right_navbar">
-                      <a href="#">Home</a>
+                    
+                       <a href="#">Home</a>
+                  
+
+                      
                       <a href="#">About</a>
                       <a href="#">Skills</a>
                       <a href="#">Contact</a>
