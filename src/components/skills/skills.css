@@ -1,0 +1,208 @@
+.skills_container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1E2326;
+    color: aliceblue;
+}
+.skills_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 50px; */
+    font-family: cursive;
+    font-size: 38px;
+    
+}
+.skill_bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 40px 0 40px;
+}
+.skill_bar > .left{
+    display: flex;
+    flex-direction: column;
+}
+.skill_bar  h2{
+    margin-bottom: 25px;
+}
+.js_bar,.java_bar,.html_bar,
+.python_bar,.react_bar,
+.communication_bar,.teamwork_bar,
+.creativity_bar,.dedication_bar,
+.management_bar{
+    margin-bottom: 15px;
+    width:500px;
+    height: 10px;
+    background-color: #9cc2d5;
+    border-radius: 30px;
+  
+}
+.skill_bar h3{
+    margin-bottom: 5px;
+}
+
+
+.js_progress{
+ width: 65%;
+ animation-name: js_ani;
+ animation-duration: 1s;
+}
+.html_progress{
+    width: 85%;
+    animation-name: html_ani;
+    animation-duration: 1s;
+}
+.python_progress{
+    width:60%;
+    animation-name: python_ani;
+    animation-duration: 1s;
+}
+.react_progress{
+    animation-name: react_ani;
+    animation-duration: 1s;
+    width: 80%;
+}
+.java_progress{
+    animation-name: java_ani;
+    animation-duration: 1s;
+    width: 70%;
+}
+
+@keyframes java_ani{
+    from{
+        width:0;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes react_ani{
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+}
+@keyframes python_ani{
+    from{
+        width: 0;
+    }
+    to{
+        width: 60%;
+    }
+}
+@keyframes html_ani{
+    from{
+        width: 0;
+    }
+    to{
+        width: 85%;
+    }
+}
+@keyframes js_ani{
+    from{
+        width: 0;
+    }
+    to{
+        width: 65%;
+    }
+}
+
+.common{
+    height: 100%;
+    background-color: #0063b1;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+
+
+
+.dedication_progress{
+    animation-name: ani_dedication;
+    animation-duration: 1s;
+   
+    width: 70%;
+}
+.management_progress{
+    animation-name: ani_management;
+    animation-duration: 1s;
+    width: 60%;
+}
+.creativity_progress{
+    width: 40%;
+    animation-name: ani_creativity;
+    animation-duration: 1s;
+}
+.teamwork_progress{
+    width: 80%;
+    animation-name: ani_teamwork;
+    animation-duration: 1s;
+}
+.communication_progress{
+    width: 75%;
+    animation-name: ani_communication;
+    animation-duration: 1s;
+}
+
+.circle{
+   
+    right:0;
+        right: 0;
+    width: 35px;
+    height: 35px;
+    background-color: #0063b1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@keyframes ani_dedication{
+    from{
+        width:0;
+    }
+    to{
+        width: 70%;
+    }
+}
+@keyframes ani_management{
+    from{
+        width:0;
+    }
+    to{
+        width: 60%;
+    }
+}
+@keyframes ani_creativity{
+    from{
+        width:0;
+    }
+    to{
+        width: 40%;
+    }
+}
+@keyframes ani_teamwork{
+    from{
+        width:0;
+    }
+    to{
+        width: 80%;
+    }
+}
+@keyframes ani_communication{
+    from{
+        width:0;
+    }
+    to{
+        width: 75%;
+    }
+}

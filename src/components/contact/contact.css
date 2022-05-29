@@ -1,0 +1,57 @@
+.contact_container{
+height: 100vh;
+background-color: #1E2326;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+.info{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-around;
+}
+.contact_left >form,.contact_right > form{
+    display: flex;
+    flex-direction: column;
+}
+.contact_left > form>input,#message_box{
+    
+   color: aliceblue;
+    width: 450px;
+    background-color:#252A2E ;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+   outline: none    ;
+    padding: 20px;
+    
+    
+}
+#message_box{
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact_left>form>input:focus{
+    border: 1px solid white;
+}
+#message_box::placeholder{
+color: aliceblue;
+}
+#message_box:focus{
+    border: 1px solid white;
+}
+#message_box::-webkit-scrollbar{
+    display: none;
+}
+
+.contact_left > form>input::placeholder{
+    
+    /* top: 50px   ; */
+    color: aliceblue;
+    
+}

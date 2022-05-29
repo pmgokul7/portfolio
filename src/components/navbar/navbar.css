@@ -1,0 +1,29 @@
+.navbar_container{
+    
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    width: 100vw;
+    height: 74px;
+    justify-content: space-between;
+    background-color: #1E2326;
+    align-items: center;
+}
+.left_navbar,.right_navbar{
+    margin: 0 90px 0 90px;
+}
+.navbar_container a{
+    margin-left: 30px;
+    color: #DBFFFF;
+    font-family:sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover{
+    color: #0063b1;
+    
+}
