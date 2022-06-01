@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4a7b0883.css",
+    "main.js": "/portfolio/static/js/main.a28dd2c6.js",
+    "static/media/top_sider_bg.jpg": "/portfolio/static/media/top_sider_bg.c6d2369c731367224ae7.jpg",
+    "static/media/instagram.png": "/portfolio/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/gokul.jpeg": "/portfolio/static/media/gokul.8bb6895343aac9f5e82c.jpeg",
+    "static/media/github.png": "/portfolio/static/media/github.159594a2d44d9175df20.png",
+    "static/media/twitter.png": "/portfolio/static/media/twitter.93ac3f9a344ecd5d01a4.png",
+    "static/media/facebook.png": "/portfolio/static/media/facebook.a5def58db1e9c1b38269.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/games.svg": "/portfolio/static/media/games.4e745381489510b3524098e828e0c095.svg",
+    "static/media/camera.svg": "/portfolio/static/media/camera.3417e0b9cb8aa31311afd7ae8b1fbb2b.svg",
+    "static/media/money.svg": "/portfolio/static/media/money.30ace712a19aa52e18265ab2a3c7796e.svg",
+    "static/media/car.svg": "/portfolio/static/media/car.8d96c72849496c1605658bf7abb02c58.svg",
+    "static/media/music.svg": "/portfolio/static/media/music.ff8dcf5a60ca365acc335e5be752e7e2.svg",
+    "static/media/travel.svg": "/portfolio/static/media/travel.0965a8ca222cb1b70cba3644749910fa.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/coffee.svg": "/portfolio/static/media/coffee.859b9fc1dbd86db1fab7ec00495d1d19.svg",
+    "main.4a7b0883.css.map": "/portfolio/static/css/main.4a7b0883.css.map",
+    "main.a28dd2c6.js.map": "/portfolio/static/js/main.a28dd2c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a7b0883.css",
+    "static/js/main.a28dd2c6.js"
+  ]
+}
