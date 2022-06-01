@@ -12,6 +12,8 @@ span{
 body{
   overflow: scroll;
   box-sizing: content-box;
+  background-color: #1E2326;;
+
 }
 body::-webkit-scrollbar{
   display: none;

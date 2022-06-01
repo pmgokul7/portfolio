@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     background-image: url("../../images/top_sider_bg.jpg");
+    background-color: #1E2326;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -70,8 +71,8 @@
     position: fixed;
     top: 0;
     z-index: 99;
-    display: flex;
-    width: 100%;
+    display: none;
+    width: 100vw;
     height: 74px;
     justify-content: space-between;
     background-color: #1E2326;
@@ -101,3 +102,8 @@ a:hover{
 
 
 /* responsive */
+@media only screen and (max-width: 768px){
+    .navigation_container{
+    
+    }
+}

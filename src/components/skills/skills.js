@@ -14,8 +14,9 @@ class Skills extends Component {
         return (
             <div className="skills_container">
                 <div className="skills_icon"  data-aos="fade-up">
+                <img src={skills} alt="" height="60px" />
                 <h1><span>S</span>kills</h1>
-                 <img src={skills} alt="" height="60px" />
+                 
                  
                 </div>
                 

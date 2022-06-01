@@ -1,4 +1,6 @@
 .contact_container{
+    margin-top: 150px;
+    position: relative;
 height: 100vh;
 background-color: #1E2326;
 display: flex;
@@ -6,6 +8,7 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 padding-bottom: 100px;
+
 }
 .contact_ic >h1{
     color: aliceblue;
@@ -105,4 +108,14 @@ color: aliceblue;
     cursor: pointer;
     text-decoration: underline;
     padding-top: 5px;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+ input{
+    
+    
+ }
+ 
 }
