@@ -71,11 +71,11 @@
     position: fixed;
     top: 0;
     z-index: 99;
-    display: none;
+    display: flex;
     width: 100vw;
     height: 74px;
     justify-content: space-between;
-    background-color: #1E2326;
+    background-color:transparent;
     align-items: center;
 }
 .left_navbar,.right_navbar{
