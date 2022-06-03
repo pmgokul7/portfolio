@@ -76,48 +76,6 @@
     width: 70%;
 }
 
-@keyframes java_ani{
-    from{
-        width:0;
-    }
-    to{
-        width: 70%;
-    }
-}
-
-@keyframes react_ani{
-    from{
-        width: 0;
-    }
-    to{
-        width: 80%;
-    }
-}
-@keyframes python_ani{
-    from{
-        width: 0;
-    }
-    to{
-        width: 60%;
-    }
-}
-@keyframes html_ani{
-    from{
-        width: 0;
-    }
-    to{
-        width: 85%;
-    }
-}
-@keyframes js_ani{
-    from{
-        width: 0;
-    }
-    to{
-        width: 65%;
-    }
-}
-
 .common{
     height: 100%;
     background-color: #0063b1;
