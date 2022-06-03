@@ -1,5 +1,6 @@
 {
-   "homepage": "http://pmgokul7.github.io/portfolio",
+  "homepage": "https://pmgokul7.github.io/portfolio",
+   
   "name": "portfolionew",
   
   "version": "0.1.0",
@@ -38,9 +39,10 @@
   },
   
   "scripts": {
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   
+  "predeploy":"npm run build",
+
+  "deploy":"gh-pages -d build",
     
   "start": "react-scripts start",
   

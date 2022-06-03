@@ -12,7 +12,7 @@ import linked from "../../images/linkedin.png"
 import "./home.css"
 
 class Home extends Component {
-    state = {  } 
+ 
    componentDidMount(){
        Aos.init()
    }
@@ -43,11 +43,11 @@ class Home extends Component {
                      <h1>GOKUL PM</h1>
                   <h2>Web & UI/UX Developer</h2>
                     <div className="icons"  >
-                      <a href=""><img src={facebook} alt="" height="40px"  /></a>
-                      <a href=""><img src={instagram} alt="" height="40px" /></a>
+                      <a href="https://www.facebook.com/gokul.pm.144/" target="_blank"><img src={facebook} alt="" height="40px"  /></a>
+                      <a href="https://instagram.com/pm_gokul_?igshid=YmMyMTA2M2Y=" target="_blank"><img src={instagram} alt="" height="40px" /></a>
                       <a href=""><img src={twitter} alt="" height="40px" /></a>
-                      <a href=""><img src={github} alt="" height="40px" /></a>
-                      <a href=""><img src={linked} alt="" height="40px" /></a>
+                      <a href="https://github.com/pmgokul7" target="_blank"><img src={github} alt="" height="40px" /></a>
+                      <a href="https://www.linkedin.com/in/pmgokul-7-07a377212" target="_blank"><img src={linked} alt="" height="40px" /></a>
 
                   </div>
                   </div>
@@ -56,8 +56,9 @@ class Home extends Component {
                      
                  </div> 
                 
+              
+                
 
-               
                  
             </div>
         );
