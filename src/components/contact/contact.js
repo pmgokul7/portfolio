@@ -28,19 +28,18 @@ class Contact extends Component {
                         <input type="text"  value={this.state.sub} onChange={(e)=>this.setState({sub:e.target.value})} placeholder='Subject' data-aos="fade-up"/>
                         {/* <input id="message_box" type="text" placeholder='Message'/> */}
                         <textarea value={this.state.smessage} onChange={(e)=>this.setState({message:e.target.value})} data-aos="fade-up" maxLength="250" placeholder='Message' id="message_box" ></textarea>
-                    </form>
-                </div>
-                <div className="contact_right">
-                   
-                    
-                </div>
-                
-                </div>
-                <button className='message' onClick={()=>console.log(this.state)}>
+                        <button className='message' onClick={()=>console.log(this.state)}>
                     
                    Send Message
                 </button>
                 <h5 onClick={()=>this.setState({uname:"",ph:"",email:"",message:"",sub:""})}>clear</h5>
+                    </form>
+                </div>
+              
+                
+                </div>
+                
+              
                 
             </div>
         );

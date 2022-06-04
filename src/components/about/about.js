@@ -16,7 +16,7 @@ class About extends Component {
     }
     render() { 
         return (
-            <div className="about_container" >
+            <div className="about_container"  data-aos="fade-up"     >
                 <div className="aboutme_container"  data-aos="fade-up">
                        <img src={about} alt="about icon" height="60px" width="60px"/>
                        <h1>About me</h1>
@@ -42,7 +42,7 @@ sector. </p>
                          </div>
                          
                      </div>
-                     <div className="right_interest"  data-aos="fade-up">
+                     <div className="right_interest" >
                           <h2>My Interests</h2 >
                           <div className="interest_icons">
                               
@@ -70,7 +70,7 @@ sector. </p>
                      </div>
                 </div>
                 <a href='https://drive.google.com/uc?export=download&id=113CtIC-nHbvCkLpzUZj9g1sK9bLM7HYp'>
-                <button className='cv'  data-aos="zoom-in" duration="500">
+                <button className='cv' >
                     
                     Download cv
                 </button></a>

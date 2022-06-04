@@ -29,6 +29,7 @@ function App() {
                       <a onClick={()=>contactref.current.scrollIntoView()}>Contact</a>
 
                </div>
+              
            </div>
         <div className="home" ref={homeref}>
               <Home/>
@@ -44,13 +45,13 @@ function App() {
     <div className="contact" ref={contactref}>
        <Contact/>
     </div>
-    
+     
    
     
-      
+     
       
    
-
+    
     </div>
   );
 }

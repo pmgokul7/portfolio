@@ -1,25 +1,28 @@
 .contact_container{
-    
-    position: relative;
 height: 100vh;
 background-color: #1E2326;
 display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
-padding-bottom: 100px;
 
+
+
+}
+.contact_ic{
+    padding-top: 50px;
 }
 .contact_ic >h1{
     color: aliceblue;
-    margin-top: 15px;
-font-family: cursive;
+   
+
     font-size: 48px;
     
 }
-.contact_ic hr{
-   background-color: aqua;
+.contact_ic>h1::first-letter{
+    color: #0063b1;
 }
+
 .info{
     display: flex;
     width: 100%;
@@ -41,12 +44,12 @@ font-family: cursive;
     margin-top: 10px;
     border-radius: 5px;
    outline: none    ;
-    padding: 20px;
+    padding: 10px;
     
     
 }
 #message_box{
-    height: 150px;
+    height: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -73,7 +76,7 @@ color: aliceblue;
 
 
 .message{
-    margin-top: 50px;
+    width: 190px;
     padding: 10px 30px 10px 30px;
     cursor: pointer;
     position: relative;
@@ -81,7 +84,8 @@ color: aliceblue;
     border-radius: 5px;
     background: transparent;
     color: aliceblue;
-    border: 2px solid aliceblue;
+    border: 1px solid aliceblue;
+    margin:10px 0 10px 0    ;
 }
 .message::after{
     /* border-radius: 5px; */
@@ -108,14 +112,13 @@ color: aliceblue;
     cursor: pointer;
     text-decoration: underline;
     padding-top: 5px;
+    text-align: left;
 }
 
 
-@media only screen and (max-width: 768px)
-{
- input{
     
-    
- }
- 
+
+.right_square{
+    background-color: #0063b1;
 }
+

@@ -1,6 +1,6 @@
 .home_container{
     display: flex;
-   padding: 20px;
+  
     justify-content: center;
     align-items: center;
     background-image: url("../../images/top_sider_bg.jpg");
@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+
 }
 .profile{
   
@@ -82,6 +83,7 @@
     margin: 0 90px 0 90px;
 }
 .navbar_container a{
+    cursor: pointer;
     margin-left: 30px;
     color: #DBFFFF;
     font-family:sans-serif;

@@ -1,4 +1,5 @@
 .skills_container{
+    
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -8,13 +9,13 @@
 .skills_container h1{
    
     font-size: 48px;
-    margin-bottom: 20px;
+   
 }
 .skills_icon{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 50px; */
+    margin-top: 80px;
     font-family: cursive;
     font-size: 38px;
     
@@ -22,7 +23,7 @@
 .skill_bar{
     display: flex;
     justify-content: space-around;
-  
+    padding-top: 20px;
     width: 100vw;
 }
 .skill_bar > .left{
@@ -131,7 +132,7 @@
      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-@keyframes ani_dedication{
+/* @keyframes ani_dedication{
     from{
         width:0;
     }
@@ -170,7 +171,7 @@
     to{
         width: 75%;
     }
-}
+} */
 
 @media only screen and (max-width: 768px)
 {
